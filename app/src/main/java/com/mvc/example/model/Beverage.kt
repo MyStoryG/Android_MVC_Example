@@ -1,9 +1,9 @@
 package com.mvc.example.model
 
-open class Beverage {
+open class Beverage(price: Int) {
+    var price = price
     var quantity = 0
 
     open fun add() {}
-
     open fun delete() {}
 }

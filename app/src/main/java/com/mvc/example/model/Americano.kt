@@ -1,8 +1,6 @@
 package com.mvc.example.model
 
-class Americano : Beverage() {
-    var price = 1500
-
+class Americano : Beverage(1500) {
     override fun add() {
         ++quantity
     }
